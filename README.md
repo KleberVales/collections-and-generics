@@ -104,6 +104,10 @@ A Set is a collection that does not allow duplicate entries. It is used when you
    - Stores elements in a hash table using their hashCode().
    - No guaranteed order for iteration (elements appear in an arbitrary order).
    - Offers the best performance for add/remove/lookup operations.
+- LinkedHashSet:
+   - A HashSet that also maintains a doubly-linked list across its elements.
+   - Iterates in insertion-order (the order in which elements were added).
+   - Also includes methods to add/remove from the ends, allowing order manipulation.
 
 
 
