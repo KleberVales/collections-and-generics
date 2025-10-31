@@ -96,6 +96,9 @@ sort(Comparator c) | Sorts the list according to the Comparator.
 
 ## Using the Set Interface
 
+A Set is a collection that does not allow duplicate entries. It is used when you need to ensure uniqueness but are not necessarily concerned with the order of elements.
+
+
 
 
 
