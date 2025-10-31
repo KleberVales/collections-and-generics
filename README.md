@@ -100,6 +100,11 @@ A Set is a collection that does not allow duplicate entries. It is used when you
 
 ### Key Set Implementations
 
+- HashSet:
+   - Stores elements in a hash table using their hashCode().
+   - No guaranteed order for iteration (elements appear in an arbitrary order).
+   - Offers the best performance for add/remove/lookup operations.
+
 
 
 
