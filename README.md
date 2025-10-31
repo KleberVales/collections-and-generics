@@ -34,6 +34,9 @@ There are four main interfaces for storing groups of objects:
 - removeIf(Predicate) → boolean: Removes all elements that match a given condition (e.g., list.removeIf(s -> s.startsWith("A"))).
 - forEach(Consumer) → void: Iterates over each element (e.g., cats.forEach(System.out::println)).
 
+### Iteration & Equality
+
+
 
 
 
