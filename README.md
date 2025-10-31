@@ -86,6 +86,10 @@ sort(Comparator c) | Sorts the list according to the Comparator.
 
 ### Important Nuances
 
+- Overloaded remove(): Be careful with the two remove methods.
+   - remove(Integer) searches for and removes the object.
+   - remove(int) removes the element at that index.
+
 
 
 
