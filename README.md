@@ -22,5 +22,8 @@ There are four main interfaces for storing groups of objects:
    - var: Infers the type from the right side (e.g., var list = new ArrayList<Integer>()).
    - Warning: Using both var and <> together (e.g., var list = new ArrayList<>()) results in a generic type of Object, which is rarely useful.
 
+ ### Common Collection Methods
+
+
 
 
