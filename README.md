@@ -24,6 +24,9 @@ There are four main interfaces for storing groups of objects:
 
  ### Common Collection Methods
 
+ These methods are defined in the Collection interface (except where noted) and are implemented by classes like ArrayList and HashSet:
+
+
 
 
 
