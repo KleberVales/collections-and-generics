@@ -60,6 +60,9 @@ A List is an ordered collection that allows duplicate entries. Elements are acce
 
 1. Factory Methods (Often Immutable):
 
+- Arrays.asList(array): Returns a fixed-size list backed by the original array. Changes to the list or array are reflected in the other.
+- List.of(...) / List.copyOf(collection): Return immutable lists. Cannot be modified (adding, removing, or replacing elements throws an exception).
+
 
 
 
