@@ -5,4 +5,13 @@ This text covers the core interfaces of the Java Collections Framework, the use 
 
 ### Core Collection Interfaces
 
+There are four main interfaces for storing groups of objects:
+
+- List: An ordered collection that allows duplicates. Elements are accessed by an index.
+- Set: A collection that does not allow duplicates.
+- Queue: Orders elements for processing in a specific order.
+- Map: Stores key/value pairs. No duplicate keys are allowed. (Note: Map is part of the framework but does not implement the Collection interface).
+
+<img width="1070" height="461" alt="Captura de tela 2025-10-31 102920" src="https://github.com/user-attachments/assets/eb2a3c7a-4969-432f-93d3-366b4cad363e" />
+
 
