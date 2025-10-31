@@ -36,6 +36,12 @@ There are four main interfaces for storing groups of objects:
 
 ### Iteration & Equality
 
+- Iteration: Can be done with forEach, an enhanced for loop, or an Iterator.
+- Equality (equals()): The implementation is specific to the collection type.
+   - List equality depends on both the elements and their order.
+   - Set equality depends only on the elements, not their order.
+   - Different collection types (e.g., a List and a Set) are never equal, even if they contain the same elements.
+
 
 
 
