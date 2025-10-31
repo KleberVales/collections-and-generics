@@ -42,6 +42,9 @@ There are four main interfaces for storing groups of objects:
    - Set equality depends only on the elements, not their order.
    - Different collection types (e.g., a List and a Set) are never equal, even if they contain the same elements.
 
+ ### Key Pitfall: Unboxing null
+
+
 
 
 
