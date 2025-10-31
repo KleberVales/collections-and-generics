@@ -73,6 +73,17 @@ A List is an ordered collection that allows duplicate entries. Elements are acce
 
 These methods work with indexes:
 
+Method | Description
+-- | --
+add(int index, E element) | Inserts element at a specific index.
+get(int index) | Returns the element at the specified index.
+set(int index, E e) | Replaces the element at an index, returns the original.
+remove(int index) | Removes the element at a specific index.
+indexOf(Object o) | Returns the first index of the element, or -1 if not found.
+lastIndexOf(Object o) | Returns the last index of the element, or -1 if not found.
+replaceAll(UnaryOperator op) | Replaces each element with the result of the operator.
+sort(Comparator c) | Sorts the list according to the Comparator.
+
 
 
 
