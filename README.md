@@ -53,6 +53,9 @@ A List is an ordered collection that allows duplicate entries. Elements are acce
 
 ### Key List Implementations
 
+- ArrayList: Like a resizable array. Excellent for frequent reading/accessing by index (constant time). Adding/removing elements (except at the end) is slower.
+- LinkedList: Implements both List and Deque. Excellent for frequent adding/removing from the beginning or end (constant time). Accessing by an arbitrary index is slower (linear time).
+
 
 
 
