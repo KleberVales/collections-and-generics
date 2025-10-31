@@ -108,6 +108,67 @@ A Set is a collection that does not allow duplicate entries. It is used when you
    - A HashSet that also maintains a doubly-linked list across its elements.
    - Iterates in insertion-order (the order in which elements were added).
    - Also includes methods to add/remove from the ends, allowing order manipulation.
+- TreeSet:
+   - Stores elements in a sorted tree structure.
+   - Iterates in sorted, natural order (according to the Comparable interface of the elements).
+   - The trade-off for sorting is that add/remove operations are slower than in a HashSet.
+
+## Working with Sets
+
+- Core Behavior: The primary behavior to remember is that the add() method returns false if you try to add a duplicate element.
+- Immutability: You can create immutable sets using factory methods:
+   - Set.of(...)
+   - Set.copyOf(collection)
+- Equality: The equals() and hashCode() methods are critical for HashSet and LinkedHashSet to determine uniqueness and find elements efficiently.
+
+# Using the Queue and Deque Interfaces
+
+These interfaces are used for collections that process elements in a specific order.
+
+## Core Concepts
+- Queue: A collection for holding elements prior to processing, typically in a FIFO (First-In, First-Out) order, like a line of people.
+- Deque (Double-Ended Queue): Extends Queue to allow adding and removing elements from both the front (head) and back (tail).
+
+## Key Implementations
+- LinkedList: Implements both List and Deque. It's versatile but less efficient as a "pure" queue.
+- ArrayDeque: A "pure" double-ended queue. More efficient than LinkedList for queue operations, but does not implement the List interface.
+
+## Queue Methods (FIFO)
+Queue methods come in two forms: one that throws an exception on failure, and one that returns a special value (like null or false).
+
+Functionality | Throws Exception | Returns Special Value
+-- | -- | --
+Add to back | add(e) | offer(e)
+Read from front | element() | peek()
+Get & Remove from front | remove() | poll()
+
+## Deque Methods (Double-Ended)
+Deque inherits all Queue methods and adds specific methods for both ends.
+
+Functionality | Front Methods | Back Methods
+-- | -- | --
+Add | addFirst(e) / offerFirst(e) | addLast(e) / offerLast(e)
+Read | getFirst() / peekFirst() | getLast() / peekLast()
+Get & Remove | removeFirst() / pollFirst() | removeLast() / pollLast()
+
+## Using Deque as a Stack (LIFO)
+A stack is LIFO (Last-In, First-Out), like a stack of plates. Deque provides methods for this use case:
+
+Functionality | Method
+-- | --
+Add to top | push(e) (equivalent to addFirst(e))
+Remove from top | pop() (equivalent to removeFirst())
+Look at top | peek() (equivalent to peekFirst())
+
+Key Takeaway: It's crucial to know how the collection is being used—as a FIFO queue, a LIFO stack, or a true double-ended queue—as this determines which methods are appropriate.
+
+# Using the Map Interface
+
+# Sorting Data
+
+# Introducing Sequenced Collections
+
+# Working with Generics
 
 
 
