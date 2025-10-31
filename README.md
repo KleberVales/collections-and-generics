@@ -84,6 +84,9 @@ lastIndexOf(Object o) | Returns the last index of the element, or -1 if not 
 replaceAll(UnaryOperator op) | Replaces each element with the result of the operator.
 sort(Comparator c) | Sorts the list according to the Comparator.
 
+### Important Nuances
+
+
 
 
 
