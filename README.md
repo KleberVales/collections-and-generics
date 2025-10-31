@@ -26,6 +26,14 @@ There are four main interfaces for storing groups of objects:
 
  These methods are defined in the Collection interface (except where noted) and are implemented by classes like ArrayList and HashSet:
 
+ - add(E element) → boolean: Inserts an element. Returns true if successful (always true for List, but false for Set if the element is a duplicate).
+- remove(Object object) → boolean: Removes a single matching element. Returns true if a match was found and removed.
+- isEmpty() → boolean / size() → int: Check if the collection is empty and get the number of elements.
+- clear() → void: Removes all elements from the collection.
+- contains(Object object) → boolean: Checks if a value is in the collection (uses equals() for comparison).
+- removeIf(Predicate) → boolean: Removes all elements that match a given condition (e.g., list.removeIf(s -> s.startsWith("A"))).
+- forEach(Consumer) → void: Iterates over each element (e.g., cats.forEach(System.out::println)).
+
 
 
 
