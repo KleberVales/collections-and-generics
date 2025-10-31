@@ -14,4 +14,7 @@ There are four main interfaces for storing groups of objects:
 
 <img width="1070" height="461" alt="Captura de tela 2025-10-31 102920" src="https://github.com/user-attachments/assets/eb2a3c7a-4969-432f-93d3-366b4cad363e" />
 
+### Using Generics
+
+
 
