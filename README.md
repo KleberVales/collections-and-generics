@@ -65,6 +65,10 @@ A List is an ordered collection that allows duplicate entries. Elements are acce
 
 2. Constructors:
 
+- new ArrayList<>() / new LinkedList<>(): Creates an empty list.
+- new ArrayList<>(collection): Creates a list containing a copy of the specified collection.
+- new ArrayList<>(int capacity): Creates an ArrayList with a specific initial capacity.
+
 
 
 
