@@ -71,6 +71,9 @@ A List is an ordered collection that allows duplicate entries. Elements are acce
 
 ### Essential List Methods (Beyond Collection Interface)
 
+These methods work with indexes:
+
+
 
 
 
