@@ -89,6 +89,9 @@ sort(Comparator c) | Sorts the list according to the Comparator.
 - Overloaded remove(): Be careful with the two remove methods.
    - remove(Integer) searches for and removes the object.
    - remove(int) removes the element at that index.
+- Converting to Array:
+   - list.toArray() returns an Object[].
+   - list.toArray(new String[0]) is the correct way to get a typed array (e.g., String[]). The new array is independent of the original list.
 
 
 
