@@ -49,6 +49,11 @@ There are four main interfaces for storing groups of objects:
 
 ## Using the List Interface
 
+A List is an ordered collection that allows duplicate entries. Elements are accessed by a zero-based integer index.
+
+### Key List Implementations
+
+
 
 
 
