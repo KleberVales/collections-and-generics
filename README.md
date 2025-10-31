@@ -58,6 +58,9 @@ A List is an ordered collection that allows duplicate entries. Elements are acce
 
 ### Creating Lists
 
+1. Factory Methods (Often Immutable):
+
+
 
 
 
