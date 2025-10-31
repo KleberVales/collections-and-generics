@@ -47,6 +47,9 @@ There are four main interfaces for storing groups of objects:
  - You can add null to a collection like ArrayList<Integer>.
 - However, if you try to retrieve that null and assign it to a primitive int, it will cause a NullPointerException because Java cannot unbox null to a primitive value.
 
+## Using the List Interface
+
+
 
 
 
