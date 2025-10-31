@@ -94,6 +94,9 @@ sort(Comparator c) | Sorts the list according to the Comparator.
    - list.toArray(new String[0]) is the correct way to get a typed array (e.g., String[]). The new array is independent of the original list.
 - Immutability: Lists created with List.of() and List.copyOf() cannot be changed. Arrays.asList() creates a fixed-size list that cannot change size but can have its elements modified.
 
+## Using the Set Interface
+
+
 
 
 
